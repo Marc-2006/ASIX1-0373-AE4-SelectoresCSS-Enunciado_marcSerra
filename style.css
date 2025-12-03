@@ -1,7 +1,11 @@
-div > p {  /* aquesta part de codi fa que el fons del "div" siggui del color que volguem */
-  background-color: rgb(0, 255, 170);
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.aldrich-regular { /* aquesta part del codi fa que Aquesta classe aplica la font “Aldrich” amb estil normal i un gruix de 400 a qualsevol element que la faci servir, en el meu cas ho aplicare a a tota la pagina web*/
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-a:link { /* aquesta part del codi fa que el text del link sigui del color que posa */
-  color: red;
+body { /* aquesta part del codi fa que li canvii a tota la pagina la lletra */
+  font-family: "Aldrich", sans-serif;
 }
