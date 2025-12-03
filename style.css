@@ -2,3 +2,6 @@ div > p {  /* aquesta part de codi fa que el fons del "div" siggui del color que
   background-color: rgb(0, 255, 170);
 }
 
+a:link { /* aquesta part del codi fa que el text del link sigui del color que posa */
+  color: red;
+}
