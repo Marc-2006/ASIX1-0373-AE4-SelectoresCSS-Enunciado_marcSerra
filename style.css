@@ -30,7 +30,7 @@ h1 { /* Regla numero 3 */
     border-radius: 5px;            /* fà que els costats siguin rodons amb un radi de 5pixels */
 }
 
-#universal {
+#universal { /*regla numero 6 */
     color: lightgoldenrodyellow; /* Aplica el color lightgoldenrodyellow a tots els elements que tinguin el selector id universal  */
 }
 
