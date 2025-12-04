@@ -34,3 +34,8 @@ h1 { /* Regla numero 3 */
     color: lightgoldenrodyellow; /* Aplica el color lightgoldenrodyellow a tots els elements que tinguin el selector id universal  */
 }
 
+h2.selector, h2#universal { /* regla 7 */
+    background-color: darkcyan; /* fà que el fondo de tots el h2 tinguin el color de fondo darkcyan */
+    padding: 1%;                /* El padding fa que s'afegeixi un relleno interior entre el contingut de l'element i les seves vores */
+    border-radius: 5px;         /* fà que els costats siguin rodons amb un radi de 5pixels */
+}
