@@ -4,3 +4,33 @@
 * {
   font-family: "Aldrich", sans-serif;
 }
+
+body { /* regla 2: El margin fa que elimina tot el marge exterior que els navegadors apliquen automaticament. 
+  El margin fa que afegeix un "relleno" del 20% als costats  */
+
+    margin: 0; 
+    padding: 0 20% 0 20%;
+}
+
+h1 { /* Regla numero 3 */
+    text-decoration: underline; /* aplica un sutbratllat als h1 */
+    color: darkcyan;           /* els sutbrallat l'aplica de color blau darkcyan */
+    text-align: center;        /* centra el text horitzontalment */
+}
+
+.selector { /* Regla numero 4 */
+
+    color: lightcyan; /* els elements que tinguin el "class" selector es posaràn de color lightcyan */
+
+}
+
+.selectors {  /* Regla numero 5 */
+    padding: 5%;                   /* el padding fa que els elements amb la classe selectors tinguin un "relleno" interior d'un 5% en els dos costats que son a sota, adalt, a la dreta i a l'esquerra */
+    border: solid darkcyan 1px;    /* aixó fà que el groixor del borde sigui de 1 pixel i sigui del color darkcyan */
+    border-radius: 5px;            /* fà que els costats siguin rodons amb un radi de 5pixels */
+}
+
+#universal {
+    color: lightgoldenrodyellow; /* Aplica el color lightgoldenrodyellow a tots els elements que tinguin el selector id universal  */
+}
+
