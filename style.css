@@ -1,3 +1,40 @@
+table {
+
+border-left: 2px solid #535151;
+border-right: 2px solid #535151;
+border-top: 2px solid #535151;
+border-bottom: 2px solid #535151;
+width: 100%;
+margin: 0;
+}
+
+
+selectors table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+.selectors th, .selectors td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.selectors th {
+    
+    color: rgb(1, 1, 1);
+}
+
+tbody tr:nth-child(odd) {
+background-color: #e6e6e6;
+}
+
+tbody tr:nth-child(even) {
+background-color: #ffffff;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 /* Regla 1: el selector universal canvia el tipus de lletra de tot el document */
@@ -39,3 +76,35 @@ h2.selector, h2#universal { /* regla 7 */
     padding: 1%;                /* El padding fa que s'afegeixi un relleno interior entre el contingut de l'element i les seves vores */
     border-radius: 5px;         /* fà que els costats siguin rodons amb un radi de 5pixels */
 }
+
+span { /* regla 8 */
+    font-weight: 900;          /* aplica un groixor  */
+    background-color: black;   /* color de fons dels span en color negre */
+    color: white;              /*color de les paraules dins del span en color blanc */
+}
+
+li > a {  /* regla 9 */
+
+    text-decoration: none; /* treu el sutbratllat dels elements a que siguin fills del li */
+
+ }   
+
+ h3 { /* regla 10 */
+
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5%;
+    border-radius: 5px;
+ }
+
+ #gallery div { /* regla 11 */
+    width: 100%; /* fa que tots els div dins de gallery ocupi tota l'amplada disponible */
+}
+
+img { /* regla num 12 */
+    width: 100%;                /* fa que la imatge ocupi tota la seva amplada en el seu "contenidor" */
+    border: solid darkcyan 1px; /* afageix un "borde" solid de color darkcyan */
+    border-radius: 5px;         /* fa que el "borde de la imatge sigui de uns 5pixels" */
+}
+
+
+
